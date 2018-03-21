@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- background color of app bar. -->
+        <item name="colorPrimary">#00e6e6</item> <!-- Background color of buttons in the app -->
+        <item name="colorPrimaryDark">#00e6e6</item>
+        <item name="colorAccent">#e6ffff</item>
+    </style>
+
+    <style name="colorButton" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">#e6ffff</item>
+        <item name="android:textColor">#003333</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="colorButtonForget" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="colorAccent">#e6ffff</item>
+        <item name="android:textColor">#003333</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin</item>
+    </style>
+
+    <style name="resetButton">
+        <item name="android:textColor">@color/textColorButtonReset</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/textSizeButtonReset</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottomButtonReset</item>
+        <item name="android:background">@drawable/button</item>
+
+    </style>
+
+    <style name="Divider"> <!-- Divider between the teams -->
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">500dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="team_name">
+        <item name="android:layout_marginLeft">@dimen/teamNameMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/teamNameMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/teamNameMarginTop</item>
+        <item name="android:textSize">@dimen/textSizeTeamName</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/teamName</item>
+
+    </style>
+
+    <style name="score_style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/paddingTeamScore</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textSizeScore</item>
+
+
+    </style>
+
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_scorekeeper"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/Finn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/team_name"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/team_Finn"
+                />
+
+
+            <ImageView
+                android:contentDescription="@string/boy_finn"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/boy_finn"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+
+
+            <TextView
+                android:id="@+id/team_Finn_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/score_style"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/finn_score"/>
+
+
+            <Button
+                android:id="@+id/threePointsFinn"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addthreePointsFinn"
+                android:text="@string/three_points" />
+
+
+            <Button
+                android:id="@+id/twoPointsFinn"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addtwoPointsFinn"
+                android:text="@string/two_points" />
+
+            <Button
+                android:id="@+id/onePointFinn"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addonePointFinn"
+                android:text="@string/one_point" />
+
+            <Button
+                android:id="@+id/deleteOnePointFinn"
+                style="@style/colorButtonForget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteOnePointFinn"
+                android:text="@string/delete_one_point"/>
+
+            <Button
+                android:id="@+id/deletetwoPointFinn"
+                style="@style/colorButtonForget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteOnePointFinn"
+                android:text="@string/delete_one_point"/>
+
+        </LinearLayout>
+
+
+        <View style="@style/Divider"/>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Lotta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/team_name"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/team_Lotta"/>
+
+            <ImageView
+                android:contentDescription="@string/girl_lotta"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/girl_lotta"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/team_Lotta_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/score_style"
+                android:fontFamily="@font/allerta_stencil"
+                android:text="@string/lotta_score"/>
+
+            <Button
+                android:id="@+id/threePointsLotta"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addthreePointsLotta"
+                android:text="@string/three_points" />
+
+            <Button
+                android:id="@+id/twoPointsLotta"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addtwoPointsLotta"
+                android:text="@string/two_points"
+                />
+
+            <Button
+                android:id="@+id/onePointLotta"
+                style="@style/colorButton"
+                android:layout_width="@dimen/layout_width"
+                android:layout_height="wrap_content"
+                android:onClick="addonePointLotta"
+                android:text="@string/one_point" />
+
+            <Button
+                android:id="@+id/deleteOnePointLotta"
+                style="@style/colorButtonForget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteOnePointLotta"
+                android:text="@string/delete_one_point"/>
+
+            <Button
+                android:id="@+id/deleteTwoPointLotta"
+                style="@style/colorButtonForget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="deleteOnePointLotta"
+                android:text="@string/delete_one_point"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        >
+    <Button
+        android:id="@+id/button_reset"
+        style="@style/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetScore"
+        android:text="@string/reset_button"
+        android:layout_gravity="center">
+
+
+    </Button>
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

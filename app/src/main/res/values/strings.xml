@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="team_Finn">Finn</string>
+    <string name="team_Lotta">Lotta</string>
+    <string name="three_points">vacuuming</string>
+    <string name="two_points">clear the table</string>
+    <string name="one_point">garbage</string>
+    <string name="reset_button">reset</string>
+    <string name="finn_score">0</string>
+    <string name="lotta_score">0</string>
+    <string name="headline">Cleantime for Screentime</string>
+    <string name="head_image">head_image</string>
+    <string name="delete_one_point">forget\na  job</string>
+    <string name="scoreTeamFinn">scoreTeamFinn</string>
+    <string name="scoreTeamLotta">scoreTeamLotta</string>
+    <string name="boy_finn">boy_finn</string>
+    <string name="girl_lotta">girl_lotta</string>
+</resources>
