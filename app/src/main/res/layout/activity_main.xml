@@ -4,18 +4,20 @@
     android:layout_height="match_parent"
     android:fillViewport="true">
 
+
 <RelativeLayout
-    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    >
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/background_scorekeeper"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
+
 
 
         <LinearLayout
@@ -32,8 +34,7 @@
                 android:layout_height="wrap_content"
                 style="@style/team_name"
                 android:fontFamily="@font/allerta_stencil"
-                android:text="@string/team_Finn"
-                />
+                android:text="@string/team_Finn"/>
 
 
             <ImageView
@@ -61,7 +62,7 @@
                 android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:onClick="addthreePointsFinn"
-                android:text="@string/three_points" />
+                android:text="@string/three_points"/>
 
 
             <Button
@@ -70,7 +71,7 @@
                 android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:onClick="addtwoPointsFinn"
-                android:text="@string/two_points" />
+                android:text="@string/two_points"/>
 
             <Button
                 android:id="@+id/onePointFinn"
@@ -78,7 +79,7 @@
                 android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:onClick="addonePointFinn"
-                android:text="@string/one_point" />
+                android:text="@string/one_point"/>
 
             <Button
                 android:id="@+id/deleteOnePointFinn"
@@ -88,13 +89,7 @@
                 android:onClick="deleteOnePointFinn"
                 android:text="@string/delete_one_point"/>
 
-            <Button
-                android:id="@+id/deletetwoPointFinn"
-                style="@style/colorButtonForget"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="deleteOnePointFinn"
-                android:text="@string/delete_one_point"/>
+
 
         </LinearLayout>
 
@@ -140,7 +135,7 @@
                 android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:onClick="addthreePointsLotta"
-                android:text="@string/three_points" />
+                android:text="@string/three_points"/>
 
             <Button
                 android:id="@+id/twoPointsLotta"
@@ -148,8 +143,8 @@
                 android:layout_width="@dimen/layout_width"
                 android:layout_height="wrap_content"
                 android:onClick="addtwoPointsLotta"
-                android:text="@string/two_points"
-                />
+                android:text="@string/two_points"/>
+
 
             <Button
                 android:id="@+id/onePointLotta"
@@ -167,13 +162,6 @@
                 android:onClick="deleteOnePointLotta"
                 android:text="@string/delete_one_point"/>
 
-            <Button
-                android:id="@+id/deleteTwoPointLotta"
-                style="@style/colorButtonForget"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="deleteOnePointLotta"
-                android:text="@string/delete_one_point"/>
 
         </LinearLayout>
 
@@ -183,8 +171,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_alignParentBottom="true"
-        >
+        android:layout_alignParentBottom="true">
+
     <Button
         android:id="@+id/button_reset"
         style="@style/resetButton"

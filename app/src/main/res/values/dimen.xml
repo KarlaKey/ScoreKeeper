@@ -4,7 +4,7 @@
     <dimen name="layout_width">160dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="teamNameMarginTop">20dp</dimen>
+    <dimen name="teamNameMarginTop">10dp</dimen>
     <dimen name="teamNameMarginStart">16dp</dimen>
     <dimen name="teamNameMarginEnd">16dp</dimen>
     <dimen name="teamNameMarginLeft">16dp</dimen>
@@ -13,5 +13,5 @@
     <dimen name="paddingTeamScore">8dp</dimen>
     <dimen name="textSizeScore">50sp</dimen>
     <dimen name="textSizeButtonReset">20sp</dimen>
-    <dimen name="marginBottomButtonReset">32dp</dimen>
+    <dimen name="marginBottomButtonReset">14dp</dimen>
 </resources>
